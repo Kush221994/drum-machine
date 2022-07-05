@@ -10,19 +10,11 @@ const Navbar = () => {
       <div className="navbar">
         <div className="nav-heading">Drum Machine</div>
         <div className="navbuttons">
-          {/* <a href="https://www.facebook.com/" target="_blank"> */}
-          <IconButton color="primary">
-            {/* <FavoriteIcon />*/} <img src={img1} className="img" />
-          </IconButton>
-          {/* </a> */}
-          {/* <a href="https://twitter.com" target="_blank">
+          <a href="https://github.com/Kush221994/p3drummachine" target="_blank">
             <IconButton color="primary">
-              <img src={img2} className="img" />
+              <img src={img1} className="img" />
             </IconButton>
-          </a> */}
-          {/* <Button variant="contained">Sign Up</Button>
-          <Button variant="contained">Log In</Button>
-        </div> */}
+          </a>
         </div>
       </div>
     </>
